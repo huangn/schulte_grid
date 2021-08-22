@@ -6,8 +6,7 @@ import lombok.*;
 @EqualsAndHashCode
 public class Cell {
     private String content;
-    private int x;
-    private int y;
+    private Position position;
     private boolean isCleared;
     public Cell() {
 
